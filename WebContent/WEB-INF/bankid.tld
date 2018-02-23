@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <display-name>bankID functions</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>bankID</short-name>
+    <uri>/getBankID</uri>
+
+    <function>
+        <!--对你这个业务标签的描述-->
+        <description>根据状态值获取文字说明 0 正常 1 停止</description>
+        <!--标签的名称，最好和方法名称同名-->
+        <name>getBankIDName</name>
+        <!--代表标签类-->
+        <function-class>com.partner.tag.BankIDTag</function-class>
+        <!--对应执行的方法的名称，和返回值-->
+        <function-signature>java.lang.String getBankIDName(java.lang.String)</function-signature>
+        <example></example>
+    </function>
+
+
+
+
+    <function>
+        <!--对你这个业务标签的描述-->
+        <description>根据状态值获取文字说明 0 正常 1 停止</description>
+        <!--标签的名称，最好和方法名称同名-->
+        <name>activeProfit</name>
+        <!--代表标签类-->
+        <function-class>com.partner.tag.BankIDTag</function-class>
+        <!--对应执行的方法的名称，和返回值-->
+        <function-signature>java.lang.String activeProfit(java.lang.String)</function-signature>
+        <example></example>
+    </function>
+
+</taglib>
